@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6507DED82132E3DD006AE2F3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6507DED72132E3DD006AE2F3 /* HomeViewController.swift */; };
+		6507DEDA21330007006AE2F3 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6507DED921330007006AE2F3 /* TabBar.swift */; };
 		653DBFDA2132735D00E2BA06 /* TextsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653DBFD92132735D00E2BA06 /* TextsTableViewController.swift */; };
 		653DBFE02132768300E2BA06 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 653DBFDD2132768300E2BA06 /* MessageTableViewCell.xib */; };
 		653DBFE12132768300E2BA06 /* MessageBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653DBFDE2132768300E2BA06 /* MessageBubbleView.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		6507DED72132E3DD006AE2F3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6507DED921330007006AE2F3 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		653DBFD92132735D00E2BA06 /* TextsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextsTableViewController.swift; sourceTree = "<group>"; };
 		653DBFDD2132768300E2BA06 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
 		653DBFDE2132768300E2BA06 /* MessageBubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBubbleView.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				65B4CDC22132A19C00103EFD /* InitialViewController.swift */,
 				653DBFDD2132768300E2BA06 /* MessageTableViewCell.xib */,
 				659F811D21325F4D00CEF644 /* Main.storyboard */,
+				6507DED921330007006AE2F3 /* TabBar.swift */,
 				6507DED72132E3DD006AE2F3 /* HomeViewController.swift */,
 				65B4CDC021329DC600103EFD /* Media.xcassets */,
 				653DBFD92132735D00E2BA06 /* TextsTableViewController.swift */,
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6507DEDA21330007006AE2F3 /* TabBar.swift in Sources */,
 				653DBFE22132768300E2BA06 /* MessageTableViewCell.swift in Sources */,
 				65B4CDC32132A19C00103EFD /* InitialViewController.swift in Sources */,
 				653DBFDA2132735D00E2BA06 /* TextsTableViewController.swift in Sources */,
