@@ -400,12 +400,20 @@ sucesso do seu negócio!</string>
                                     <constraint firstAttribute="height" constant="46" id="ueB-Yg-dzp"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="bmj-G4-dRd">
+                                <rect key="frame" x="118.5" y="208" width="138" height="155"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="155" id="ggA-d7-1h3"/>
+                                    <constraint firstAttribute="width" constant="138" id="rzV-rh-bNt"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="b0Y-fU-0Uh" firstAttribute="trailing" secondItem="0E9-1b-jpm" secondAttribute="trailing" id="6gb-K1-qhh"/>
                             <constraint firstItem="CRb-OW-7GS" firstAttribute="trailing" secondItem="Emn-df-Hb5" secondAttribute="trailing" id="Hgp-Zr-dqJ"/>
                             <constraint firstItem="0E9-1b-jpm" firstAttribute="leading" secondItem="b0Y-fU-0Uh" secondAttribute="leading" id="N7t-WR-9ph"/>
+                            <constraint firstItem="bmj-G4-dRd" firstAttribute="centerX" secondItem="j1z-vk-gCF" secondAttribute="centerX" id="OLQ-h3-RPO"/>
                             <constraint firstItem="0E9-1b-jpm" firstAttribute="top" secondItem="j1z-vk-gCF" secondAttribute="top" id="OlL-Ud-85b"/>
                             <constraint firstItem="coO-QY-wLZ" firstAttribute="top" secondItem="BPA-lj-VEf" secondAttribute="bottom" constant="48" id="Roc-fh-2DW"/>
                             <constraint firstItem="coO-QY-wLZ" firstAttribute="centerX" secondItem="j1z-vk-gCF" secondAttribute="centerX" id="Uu2-U2-tRf"/>
@@ -415,6 +423,7 @@ sucesso do seu negócio!</string>
                             <constraint firstItem="4WW-Xw-5ph" firstAttribute="centerX" secondItem="j1z-vk-gCF" secondAttribute="centerX" id="aVR-3m-Rqa"/>
                             <constraint firstItem="CRb-OW-7GS" firstAttribute="leading" secondItem="Emn-df-Hb5" secondAttribute="leading" id="g1U-Gt-BYP"/>
                             <constraint firstItem="4WW-Xw-5ph" firstAttribute="top" secondItem="coO-QY-wLZ" secondAttribute="bottom" constant="5" id="jxM-LA-zPz"/>
+                            <constraint firstItem="bmj-G4-dRd" firstAttribute="top" secondItem="CRb-OW-7GS" secondAttribute="bottom" constant="40" id="luI-Mo-stM"/>
                             <constraint firstItem="Emn-df-Hb5" firstAttribute="top" secondItem="b0Y-fU-0Uh" secondAttribute="top" constant="40" id="saq-PA-dq6"/>
                             <constraint firstItem="Emn-df-Hb5" firstAttribute="centerX" secondItem="j1z-vk-gCF" secondAttribute="centerX" id="tRx-m9-piH"/>
                             <constraint firstItem="BPA-lj-VEf" firstAttribute="centerX" secondItem="j1z-vk-gCF" secondAttribute="centerX" id="zOp-BH-Wox"/>
@@ -552,6 +561,7 @@ negócio para continuarmos...</string>
         <image name="Bot Image" width="318" height="176"/>
         <image name="Facebook" width="11" height="20"/>
         <image name="Fundo" width="375" height="411"/>
+        <image name="Logo" width="178" height="191"/>
         <image name="Logotipo" width="242" height="53"/>
         <image name="check" width="27" height="26"/>
         <image name="home" width="26" height="28"/>
