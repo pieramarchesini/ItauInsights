@@ -13,6 +13,7 @@ class TextsTableViewController: UITableViewController {
     var messages = [String]()
     var incomingMessages: [String] = [
         "Olá! Que bom ter você aqui para bater um papo sobre seu negócio. \nEu sou o Rubens e estou aqui para te ajudar a impulsionar o seu negócio. \n\nComo posso te chamar?",
+        "Vamos ver como estão suas contas para fazer um diagnóstico mais preciso. \nQuanto você fatura com suas vendas em um mês?",
         "Vamos fazer algumas perguntas sobre seu negócio e depois sobre seus custo, para podermos fazer um diagnóstico da saúde e do momento da sua empresa vc trabalha com produto ou serviço?",
         "Qual ramo você se inclui? \nPor exemplo: Alimentação,\nVestuário e acessórios, \nFrete e transporte,\nConstrução civil e manutenção, \nComunicação, \nProfissional de tecnologia",
         "Você trabalha na sua casa? \nSe você trabalha na sua casa, é importante saber quanto das suas contas são de responsabilidade da empresa, e quanto são suas.",
@@ -25,11 +26,15 @@ class TextsTableViewController: UITableViewController {
     ]
     var countIncoming = 0
     fileprivate let MessageCellIdentifier = "MessageTableViewCell"
+    var timer: Timer?
     
     func addMessage(_ message: String) {
         messages.append(message)
         self.tableView.reloadData()
-        showMessage()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            self.showMessage()
+        }
+        
     }
     
     func showMessage() {
@@ -79,7 +84,7 @@ class TextsTableViewController: UITableViewController {
         }
         
         let message = messages[indexPath.row]
-        let currentUserIsSender = indexPath.row % 2 == 0
+        let currentUserIsSender = indexPath.row % 2 != 0
         cell.configure(withMessage: message, currentUserIsSender: currentUserIsSender)
         return cell
     }
