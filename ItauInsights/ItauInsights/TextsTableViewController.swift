@@ -9,22 +9,33 @@
 import UIKit
 
 class TextsTableViewController: UITableViewController {
-    
-//    var messages: [String]?
-    var messages = [
-        "Hello!",
-        "Hi there!",
-        "Here's\na\nlonger\nmessage",
-        "Wow, multiline messages!"
+
+    var messages = [String]()
+    var incomingMessages: [String] = [
+        "Olá! Que bom ter você aqui para bater um papo sobre seu negócio. \nEu sou o Rubens e estou aqui para te ajudar a impulsionar o seu negócio. \n\nComo posso te chamar?",
+        "Vamos fazer algumas perguntas sobre seu negócio e depois sobre seus custo, para podermos fazer um diagnóstico da saúde e do momento da sua empresa vc trabalha com produto ou serviço?",
+        "Qual ramo você se inclui? \nPor exemplo: Alimentação,\nVestuário e acessórios, \nFrete e transporte,\nConstrução civil e manutenção, \nComunicação, \nProfissional de tecnologia",
+        "Você trabalha na sua casa? \nSe você trabalha na sua casa, é importante saber quanto das suas contas são de responsabilidade da empresa, e quanto são suas.",
+        "Onde é o seu negócio?",
+        "Legal! Agora já entendemos um pouco do seu perfil empreendedor. Vamos ver como estão suas contas para fazer um diagnóstico mais preciso. \nQuanto você fatura com suas vendas em um mês?",
+        "Você tem pago seus impostos (DAS) em dia?",
+        "Quanto você gasta com a compra de seus insumos e matéria prima.",
+        "Qual é o custo com mão de obra? (sua e de possíveis funcionários)",
+        "Muito bom, já conseguimos entender um pouco melhor seu fluxo de caixa."
     ]
-    var incomingMessages: [String]?
     var countIncoming = 0
     fileprivate let MessageCellIdentifier = "MessageTableViewCell"
     
     func addMessage(_ message: String) {
         messages.append(message)
-//        messages?.append(message)
         self.tableView.reloadData()
+        showMessage()
+    }
+    
+    func showMessage() {
+        messages.append(incomingMessages[countIncoming])
+        self.tableView.reloadData()
+        countIncoming += 1
     }
 
     override func viewDidLoad() {
@@ -34,6 +45,7 @@ class TextsTableViewController: UITableViewController {
         self.tableView.rowHeight = UITableViewAutomaticDimension
         self.tableView.estimatedRowHeight = 10.0
         self.tableView.tableFooterView = UIView()
+        showMessage()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
