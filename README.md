@@ -10,7 +10,9 @@ APRESENTAÇÃO
 https://drive.google.com/open?id=12beniJhmYcRmhbFLFP393bl97JqxQYsA
 
 
-![alt text](https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/logo.png)
+<p align="center">
+  <img src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/logo.png">
+</p>
 
 
 ## AjudaMEI!
