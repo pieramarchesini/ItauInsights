@@ -14,16 +14,25 @@ Through a [hacking marathon promoted by Itaú](https://www.itau.com.br/itauinsig
  
 ## Screenshots and prototype
 Check the prototype [here](https://marvelapp.com/190jebag)!
+<p float="left">
+  <img width="30%" src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/0.jpg">
 
-<img src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/0.jpg">
-<img src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/1.jpg">
-<img src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/2.jpg">
-<img src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/3.jpg">
-<img src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/4.jpg">
-<img src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/5.jpg">
-<img src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/6.jpg">
-<img src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/7.jpg">
-<img src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/8.jpg">
+  <img width="30%" src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/1.jpg">
+
+  <img width="30%" src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/2.jpg">
+
+  <img width="30%" src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/3.jpg">
+
+  <img width="30%" src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/4.jpg">
+
+  <img width="30%" src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/5.jpg">
+
+  <img width="30%" src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/6.jpg">
+
+  <img width="30%" src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/7.jpg">
+
+  <img width="30%" src="https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/8.jpg">
+</p>
 
 ## Tech/framework used
 <b>Built with</b>
