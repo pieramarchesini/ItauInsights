@@ -10,7 +10,7 @@ APRESENTAÇÃO
 https://drive.google.com/open?id=12beniJhmYcRmhbFLFP393bl97JqxQYsA
 
 
-![alt text](https://raw.githubusercontent.com/stefanobg/ItauInsights/presentation/ItauInsights/assets/logo.png)
+![alt text](https://github.com/PieraMarchesini/ItauInsights/raw/presentation/ItauInsights/assets/logo.png)
 
 
 ## AjudaMEI!
